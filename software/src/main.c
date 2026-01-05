@@ -40,6 +40,9 @@ int main(void)
     
     KeyInit();
     
+    // Initialize XT keyboard interface
+    xt_interface_initialize();
+    
     while(1)
     {
         KB_LED_Handle();
